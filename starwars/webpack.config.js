@@ -1,5 +1,5 @@
 var webpack = require('webpack');
-// var path = require('path');
+var path = require('path');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = {
@@ -24,8 +24,5 @@ module.exports = {
     new webpack.HotModuleReplacementPlugin(),
     new webpack.NoErrorsPlugin(),
     new ExtractTextPlugin('public/build/styles.css')
-  ],
-  resolve: [
-    root: __dirname + '/starwars/'
   ]
 };

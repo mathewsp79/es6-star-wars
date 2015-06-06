@@ -1,0 +1,21 @@
+.profile {
+    height: calc(33.3333% - 0px / 3);
+}
+
+.profile__caption {
+
+}
+
+.profile__img {
+    width: 100%;
+}
+
+.profile__img-container {
+    width: 100%;
+    max-height: 260px;
+    overflow: hidden;
+}
+
+.profile__img-container img {
+    object-fit: contain;
+}
